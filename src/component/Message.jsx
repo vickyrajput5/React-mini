@@ -4,14 +4,14 @@ const Message = () => {
   return (
     <div
    
-    className="message" 
+    className="message owner" 
   >
     <div className="messageInfo">
       <img
         src={
          User
         }
-        alt=""
+        alt="" 
       />
       <span>just now</span>
     </div>
